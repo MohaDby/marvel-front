@@ -1,0 +1,97 @@
+.comics-main .hero {
+  background-image: url("../img/G0205_142398_00.jpg");
+}
+
+.comics-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.comics-container input {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 32px;
+  outline: none;
+  border-bottom: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.comics-sheet {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.comic-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.comic-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.74);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+
+.hover-text {
+  font-size: 17px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: white !important;
+  z-index: 2;
+}
+
+.comic-img:hover .hover-text,
+.comic-img:hover::before {
+  opacity: 1;
+}
+
+.comic-img img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.hover-text {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  color: #000;
+}
+
+.comic-infos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  background-color: #121212;
+  padding: 16px;
+  height: 150px;
+  border-bottom: 3px solid red;
+}
+
+.comic-infos {
+  font-size: 18px;
+}
+
+.comic-infos button {
+  font-size: 20px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

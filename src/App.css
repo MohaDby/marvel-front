@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("./assets/css/header.css");
+@import url("./assets/css/characters.css");
+@import url("./assets/css/character.css");
+@import url("./assets/css/comics.css");
+@import url("./assets//css/favorites.css");
+@import url("./assets/css/paginations.css");
+@import url("./assets/css/login.css");
+@import url("./assets/css/footer.css");
+@import url("./assets/css/signup.css");
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: white;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffffcc;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.hero {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.123);
+}
+
+.hero h2 {
+  font-size: 10vh;
+  font-weight: 600;
+}

@@ -1,0 +1,47 @@
+.character-hero {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  background-color: #121212;
+}
+
+.character-hero-container {
+  height: 100%;
+  width: 60%;
+  gap: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.character-main .comic-card {
+  width: 300px !important;
+}
+
+.character-details {
+  margin: auto 0;
+}
+
+.character-details h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.slider-container {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-container h3 {
+  font-size: 39px;
+  margin-bottom: 30px;
+}
+
+.slick-slider {
+  width: 100%;
+}

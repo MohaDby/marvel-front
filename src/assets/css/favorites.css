@@ -1,0 +1,25 @@
+.favorites-main .hero {
+  background-image: url("../img/marvel-dossier-ag.jpg");
+  background-position: top;
+}
+
+.favorites-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.favorites-container h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  font-size: 50px;
+}
+
+.favorites-container h2 span {
+  color: red;
+  margin-left: 20px;
+}
+
+.favorites-container .comics-sheet {
+  margin-bottom: 100px;
+}

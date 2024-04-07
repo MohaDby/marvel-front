@@ -1,0 +1,61 @@
+.characters-main .hero {
+  background-image: url("../img/wallpapersden.com_avengers-endgame-banner_7173x3000.jpg");
+}
+
+.characters-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.characters-container input {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 32px;
+  outline: none;
+  border-bottom: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.characters-sheet {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.character-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.character-img img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.character-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  background-color: #121212;
+  padding: 16px;
+  height: 150px;
+  border-bottom: 3px solid red;
+}
+
+.character-info {
+  font-size: 26px;
+}
+
+.character-info button {
+  font-size: 20px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

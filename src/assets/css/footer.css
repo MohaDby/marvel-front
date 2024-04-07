@@ -1,0 +1,31 @@
+footer {
+  background-color: #121212;
+}
+
+footer .container {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer img {
+  height: 100px;
+}
+footer .first-section {
+  margin-bottom: 25px;
+}
+
+.divider {
+  border-bottom: 2px solid red;
+}
+
+.made-by {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.made-by span,
+.made-by a {
+  margin-right: 0.5em;
+}

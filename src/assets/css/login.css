@@ -1,0 +1,47 @@
+.login-main .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  height: 100vh;
+}
+
+.login-main .col1 {
+  height: 100%;
+  background-image: url("../img/images.jpg");
+}
+
+.login-main .col2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.login-main .col2 h2 {
+  font-size: 40px;
+}
+.login-main .col2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-main .col2 form input {
+  border: none;
+  background-color: black;
+  font-size: 15px;
+  outline: none;
+  color: white;
+  border-bottom: 1px solid red;
+  margin-bottom: 20px;
+}
+
+.login-main .col2 form button {
+  margin: 40px 0;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(167, 2, 2);
+  font-size: 20px;
+  outline: none;
+  color: white;
+}
